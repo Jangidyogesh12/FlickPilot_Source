@@ -22,6 +22,7 @@ def path(movie_name):
 
 def recommender(movie_name):
     data_from_db = collection.find({"title":movie_name},{"_id":0,"recommendation":1, "movie_id":1 })
+    data_from_db = collection.find({"title":movie_name},{"_id":0,"recommendation":1, "movie_id":1 })
     recommendations = list(data_from_db)[0]
     recommendations["path"] = path(movie_name)
     return recommendations

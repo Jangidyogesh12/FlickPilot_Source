@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
-
+.movie_name {
+  font-size: medium;
+  font-weight: bold;
+}
 ul {
   display: flex;
-  color: #00a9ff;
+  color: white;
   list-style: none;
+  font-family: "Nixie One", system-ui;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -31,7 +35,6 @@ input {
 .container {
   width: 250px;
   height: 300px;
-  border: solid 4px #00aaff78;
   border-radius: 10px;
   margin: 5px;
   position: relative;

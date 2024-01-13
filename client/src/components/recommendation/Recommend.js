@@ -40,7 +40,7 @@ export default function Recommend() {
           {combinedRecommendation.map(({ imagePath, movieName }, index) => (
             <div className="container" key={index}>
               <img src={imagePath} alt={movieName} className="container_img" />
-              <li>{movieName}</li>
+              <li className="movie_name">{movieName}</li>
             </div>
           ))}
         </ul>
