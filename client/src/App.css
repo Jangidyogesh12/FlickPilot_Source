@@ -1,0 +1,37 @@
+.Block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(50, 50, 51, 0.1),
+    rgba(50, 50, 51, 0.2),
+    rgba(50, 50, 51, 0.3),
+    rgba(50, 50, 51, 0.4),
+    rgba(50, 50, 51, 0.5),
+    rgba(50, 50, 51, 0.6),
+    rgba(50, 50, 51, 0.5),
+    rgba(50, 50, 51, 0.4),
+    rgba(50, 50, 51, 0.3),
+    rgba(50, 50, 51, 0.2),
+    rgba(50, 50, 51, 0.1)
+  );
+  height: 100%;
+}
+
+/* .cover {
+  border: solid 2px red;
+  z-index: 1;
+  height: 100vh;
+} */
