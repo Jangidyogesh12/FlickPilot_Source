@@ -17,22 +17,20 @@ function App() {
     return index;
   };
   return (
-    <div className="cover">
-      <div className="App">
+    <div
+      className="cover"
+      style={{
+        backgroundImage: `url(${img_list[random_index()]})`,
+      }}
+    >
+      <div className="navbar">
         <Navbar />
-        <div
-          className="Block"
-          style={{
-            backgroundImage: `url(${img_list[random_index()]})`,
-          }}
-        >
-          <div className="info">
-            <Home />
-            <Recommend />
-          </div>
-        </div>
-        <Footer />
       </div>
+      <div className="info">
+        <Home />
+        <Recommend />
+      </div>
+      <Footer />
     </div>
   );
 }
